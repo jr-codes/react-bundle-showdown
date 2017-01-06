@@ -3,11 +3,9 @@ const path = require('path')
 const shell = require('shelljs')
 
 const run = (dir, cmd) => {
-  return new Promise((resolve, reject) => {
-    cmd = `cd ${dir} && ${cmd}`
-    console.log(`Running "${cmd}"`)
-    shell.exec(cmd, (code, stdout, stderr) => code ? reject(stderr) : resolve(stdout))
-  })
+  cmd = `cd ${dir} && ${cmd}`
+  console.log(`Running "${cmd}"`)
+  shell.exec(cmd, { async: true })
 }
 
 const getProjects = root => fs.readdirSync(root).filter(file =>
