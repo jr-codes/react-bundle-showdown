@@ -21,8 +21,7 @@ export default {
       jsnext: true
     }),
     commonjs({
-      include: 'node_modules/**',
-      namedExports: { 'preact-redux': ['connect', 'Provider' ]}
+      include: 'node_modules/**'
     }),
     babel({
       exclude: 'node_modules/**'
