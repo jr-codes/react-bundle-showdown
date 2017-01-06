@@ -2,8 +2,7 @@
   "name": "browserify-react",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browserify index.js > bundle.js && browser-sync start",
-    "test": "standard --fix"
+    "build": "browserify index.js > bundle.js"
   },
   "dependencies": {
     "babel-preset-latest": "^6.16.0",
@@ -12,17 +11,13 @@
     "browser-sync": "^2.18.5",
     "browserify": "^13.3.0",
     "react": "^15.4.1",
-    "react-dom": "^15.4.1",
-    "standard": "^8.6.0"
+    "react-dom": "^15.4.1"
   },
   "babel": {
     "presets": [
       "latest",
       "react"
     ]
-  },
-  "browser-sync": {
-    "server": true
   },
   "browserify": {
     "transform": [

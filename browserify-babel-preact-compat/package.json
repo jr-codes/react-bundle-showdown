@@ -2,8 +2,7 @@
   "name": "browserify-preact-compat",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browserify index.js > bundle.js && browser-sync start",
-    "test": "standard --fix"
+    "build": "browserify index.js > bundle.js && browser-sync start"
   },
   "dependencies": {
     "aliasify": "^2.1.0",
@@ -11,8 +10,7 @@
     "babel-preset-react": "^6.16.0",
     "browser-sync": "^2.18.5",
     "preact": "^7.1.0",
-    "preact-compat": "^3.9.4",
-    "standard": "^8.6.0"
+    "preact-compat": "^3.9.4"
   },
   "aliasify": {
     "aliases": {
@@ -25,9 +23,6 @@
       "latest",
       "react"
     ]
-  },
-  "browser-sync": {
-    "server": true
   },
   "browserify": {
     "transform": [

@@ -2,8 +2,7 @@
   "name": "browserify-preact",
   "version": "1.0.0",
   "scripts": {
-    "dev": "browserify index.js > bundle.js && browser-sync start",
-    "test": "standard --fix"
+    "build": "browserify index.js > bundle.js"
   },
   "dependencies": {
     "babel-preset-latest": "^6.16.0",
@@ -27,9 +26,6 @@
         }
       ]
     ]
-  },
-  "browser-sync": {
-    "server": true
   },
   "browserify": {
     "transform": [

@@ -1,4 +1,3 @@
-/** @jsx h */
 /* global document */
 import { h, render } from 'preact'
 
