@@ -1,0 +1,21 @@
+{
+  "name": "react-bundle-showdown",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "standard --fix",
+    "serve": "browser-sync start"
+  },
+  "repository": "git@github.com:zarjay/react-bundle-showdown.git",
+  "author": "JR Shampang <jr@shampang.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.5",
+    "standard": "^8.6.0"
+  },
+  "browser-sync": {
+    "server": {
+      "baseDir": "./",
+      "directory": true
+    }
+  }
+}
