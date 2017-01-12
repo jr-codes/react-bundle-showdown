@@ -1,5 +1,5 @@
 {
-  "name": "browserify-react",
+  "name": "browserify-babel-react",
   "version": "1.0.0",
   "scripts": {
     "build": "browserify index.js > bundle.js"
@@ -8,7 +8,6 @@
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
-    "browser-sync": "^2.18.5",
     "browserify": "^13.3.0",
     "react": "^15.4.1",
     "react-dom": "^15.4.1"

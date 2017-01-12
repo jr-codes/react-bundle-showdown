@@ -1,5 +1,5 @@
 {
-  "name": "browserify-preact",
+  "name": "browserify-babel-preact",
   "version": "1.0.0",
   "scripts": {
     "build": "browserify index.js > bundle.js"
@@ -8,10 +8,8 @@
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babelify": "^7.3.0",
-    "browser-sync": "^2.18.5",
     "browserify": "^13.3.0",
-    "preact": "^7.1.0",
-    "standard": "^8.6.0"
+    "preact": "^7.1.0"
   },
   "babel": {
     "presets": [

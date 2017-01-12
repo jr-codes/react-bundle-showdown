@@ -7,8 +7,6 @@
   "dependencies": {
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
-    "browser-sync": "^2.18.5",
-    "browserify": "^13.3.0",
     "preact": "^7.1.0",
     "preact-compat": "^3.9.4",
     "preact-redux": "^1.2.0",
