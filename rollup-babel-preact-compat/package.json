@@ -9,7 +9,6 @@
     "babel-preset-react": "^6.16.0",
     "preact": "^7.1.0",
     "preact-compat": "^3.9.4",
-    "preact-redux": "^1.2.0",
     "rollup": "^0.40.2",
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^7.0.0",
