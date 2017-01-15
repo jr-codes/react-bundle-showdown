@@ -1,0 +1,12 @@
+{
+  "name": "webpack2-buble-preact",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "buble-loader": "^0.4.0",
+    "preact": "^7.1.0",
+    "webpack": "beta"
+  }
+}
