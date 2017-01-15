@@ -1,0 +1,16 @@
+{
+  "name": "rollup-buble-react",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "rollup": "^0.40.2",
+    "rollup-plugin-buble": "^0.15.0",
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1"
+  }
+}
