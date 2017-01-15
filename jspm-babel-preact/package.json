@@ -1,0 +1,22 @@
+{
+  "name": "jspm-babel-react",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "jspm bundle-sfx index.js bundle.js",
+    "postinstall": "jspm install"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jspm": "^0.16.48"
+  },
+  "jspm": {
+    "dependencies": {
+      "preact": "npm:preact@^7.1.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
