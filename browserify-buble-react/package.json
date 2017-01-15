@@ -1,0 +1,20 @@
+{
+  "name": "browserify-buble-react",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^13.3.0",
+    "bubleify": "^0.7.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "rollupify": "^0.3.9"
+  },
+  "browserify": {
+    "transform": [
+      "bubleify",
+      "rollupify"
+    ]
+  }
+}
