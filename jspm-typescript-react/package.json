@@ -1,0 +1,21 @@
+{
+  "name": "jspm-typescript-react",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "jspm bundle-sfx index.js bundle.js",
+    "postinstall": "jspm install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jspm": "^0.16.48"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^15.4.2",
+      "react-dom": "npm:react-dom@^15.4.2"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^2.0.7"
+    }
+  }
+}
