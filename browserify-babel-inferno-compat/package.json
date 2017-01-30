@@ -1,0 +1,34 @@
+{
+  "name": "browserify-babel-inferno-compat",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "dependencies": {
+    "aliasify": "^2.1.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "inferno": "^1.2.2",
+    "inferno-compat": "^1.2.2"
+  },
+  "aliasify": {
+    "aliases": {
+      "react": "inferno-compat",
+      "react-dom": "inferno-compat"
+    }
+  },
+  "babel": {
+    "presets": [
+      "latest",
+      "react"
+    ]
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "aliasify"
+    ]
+  }
+}
