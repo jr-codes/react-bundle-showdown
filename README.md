@@ -19,7 +19,7 @@ Inferno vs Preact vs React vs React-lite
 | browserify| babel     | preact-compat |                   |
 | browserify| babel     | react         |                   |
 | browserify| babel     | react-lite    |                   |
-| browserify| buble     | inferno       |                   |
+| browserify| buble     | inferno       | N/A<sup>1</sup>   |
 | browserify| buble     | inferno-compat|                   |
 | browserify| buble     | preact        |                   |
 | browserify| buble     | preact-compat |                   |
@@ -37,12 +37,12 @@ Inferno vs Preact vs React vs React-lite
 | jspm      | babel     | preact-compat |                   |
 | jspm      | babel     | react         |                   |
 | jspm      | babel     | react-lite    |                   |
-| jspm      | buble     | inferno       | N/A<sup>1</sup>   |
-| jspm      | buble     | inferno-compat| N/A<sup>1</sup>   |
-| jspm      | buble     | preact        | N/A<sup>1</sup>   |
-| jspm      | buble     | preact-compat | N/A<sup>1</sup>   |
-| jspm      | buble     | react         | N/A<sup>1</sup>   |
-| jspm      | buble     | react-lite    | N/A<sup>1</sup>   |
+| jspm      | buble     | inferno       | N/A<sup>2</sup>   |
+| jspm      | buble     | inferno-compat| N/A<sup>2</sup>   |
+| jspm      | buble     | preact        | N/A<sup>2</sup>   |
+| jspm      | buble     | preact-compat | N/A<sup>2</sup>   |
+| jspm      | buble     | react         | N/A<sup>2</sup>   |
+| jspm      | buble     | react-lite    | N/A<sup>2</sup>   |
 | jspm      | typescript| inferno       |                   |
 | jspm      | typescript| inferno-compat|                   |
 | jspm      | typescript| preact        |                   |
@@ -104,4 +104,13 @@ Inferno vs Preact vs React vs React-lite
 | webpack2  | typescript| react         |                   |
 | webpack2  | typescript| react-lite    |                   |
 
-N/A<sup>1</sup> - [JSPM doesn't support Bublé](https://github.com/jspm/jspm-cli/issues/1721).
+N/A<sup>1</sup> - Bublé doesn't support Inferno's JSX.
+
+- https://github.com/infernojs/babel-plugin-inferno/issues/36
+- https://github.com/infernojs/inferno/issues/410#issuecomment-250031438
+
+
+N/A<sup>2</sup> - JSPM doesn't support Bublé.
+
+- https://github.com/jspm/jspm-cli/issues/1721
+
