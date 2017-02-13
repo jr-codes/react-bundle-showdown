@@ -9,7 +9,7 @@ const run = (dir, cmd) => {
 }
 
 const getProjects = root => fs.readdirSync(root).filter(file =>
-  !/^\.|node_modules/.test(file) &&
+  !/^\.|node_modules|traces/.test(file) &&
   fs.statSync(path.join(root, file)).isDirectory()
 )
 

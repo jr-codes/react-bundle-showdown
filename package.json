@@ -2,10 +2,8 @@
   "name": "react-bundle-showdown",
   "version": "1.0.0",
   "scripts": {
-    "build": "node build",
-    "lint": "standard --fix",
-    "serve": "browser-sync start",
-    "analyze": "NODE_TLS_REJECT_UNAUTHORIZED=0 node analyze"
+    "analyze": "node build && node analyze",
+    "lint": "standard --fix"
   },
   "repository": "git@github.com:zarjay/react-bundle-showdown.git",
   "author": "JR Shampang <jr@shampang.com>",
@@ -13,15 +11,9 @@
   "dependencies": {
     "bigrig": "^1.3.0",
     "browser-sync": "^2.18.5",
-    "selenium-standalone": "latest",
+    "selenium-standalone": "^6.0.1",
     "shelljs": "^0.7.5",
     "standard": "^8.6.0",
-    "wd": "^1.1.3"
-  },
-  "browser-sync": {
-    "server": {
-      "baseDir": "./",
-      "directory": true
-    }
+    "webdriverio": "^4.6.2"
   }
 }
