@@ -1,4 +1,3 @@
-/* global document */
-import Inferno from 'inferno'
+import { render } from 'inferno'
 
-Inferno.render(<div>Hello World</div>, document.getElementById('app'))
+render(<div>Hello World</div>, document.getElementById('root'))
