@@ -1,5 +1,5 @@
 {
-  "name": "webpack2-babel-preact",
+  "name": "webpack-babel-preact",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack"

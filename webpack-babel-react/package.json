@@ -1,5 +1,5 @@
 {
-  "name": "webpack2-babel-react",
+  "name": "webpack-babel-react",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack"
